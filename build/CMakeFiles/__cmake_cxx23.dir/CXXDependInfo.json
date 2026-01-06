@@ -1,0 +1,42 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : 
+	{
+		"CMakeFiles/__cmake_cxx23.dir/usr/include/c++/15/bits/std.cc.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "std",
+			"relative-directory" : "",
+			"source" : "/usr/include/c++/15/bits/std.cc",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		},
+		"CMakeFiles/__cmake_cxx23.dir/usr/include/c++/15/bits/std.compat.cc.o" : 
+		{
+			"bmi-only" : false,
+			"destination" : null,
+			"name" : "std",
+			"relative-directory" : "",
+			"source" : "/usr/include/c++/15/bits/std.compat.cc",
+			"type" : "CXX_MODULES",
+			"visibility" : "PUBLIC"
+		}
+	},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/axe/Code/concurrency/build",
+	"dir-cur-src" : "/home/axe/Code/concurrency",
+	"dir-top-bld" : "/home/axe/Code/concurrency/build",
+	"dir-top-src" : "/home/axe/Code/concurrency",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/axe/Code/concurrency/build/CMakeFiles/__cmake_cxx23.dir",
+	"sources" : {}
+}

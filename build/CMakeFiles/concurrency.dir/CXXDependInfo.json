@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "Clang",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/axe/Code/concurrency/build",
+	"dir-cur-src" : "/home/axe/Code/concurrency",
+	"dir-top-bld" : "/home/axe/Code/concurrency/build",
+	"dir-top-src" : "/home/axe/Code/concurrency",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : 
+	[
+		"/home/axe/Code/concurrency/build/CMakeFiles/__cmake_cxx23.dir"
+	],
+	"module-dir" : "/home/axe/Code/concurrency/build/CMakeFiles/concurrency.dir",
+	"sources" : 
+	{
+		"CMakeFiles/concurrency.dir/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/axe/Code/concurrency/main.cpp"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "revision": 0,
+  "rules": [
+    {
+      "primary-output": "CMakeFiles/__cmake_cxx23.dir/usr/include/c++/15/bits/std.cc.o",
+      "provides": [
+        {
+          "is-interface": true,
+          "logical-name": "std",
+          "source-path": "/usr/include/c++/15/bits/std.cc"
+        }
+      ]
+    }
+  ],
+  "version": 1
+}
