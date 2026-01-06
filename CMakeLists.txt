@@ -6,4 +6,14 @@ set(CMAKE_CXX_STANDARD 23)
 
 project(concurrency)
 
-add_executable(concurrency main.cpp)
+add_library(concurrency)
+target_sources(concurrency
+    PUBLIC
+    FILE_SET CXX_MODULES FILES
+    concurrency/concurrency.cppm
+    concurrency/spsc_queue.cppm
+)
+
+add_executable(main main.cpp)
+
+target_link_libraries(main PRIVATE concurrency)

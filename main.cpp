@@ -1,6 +1,6 @@
 import std;
+import concurrency;
 
-int main() {
-    std::println("Hello, World!");
-    return 0;
-}
+using namespace concurrency;
+
+int main() { spsc_queue<int> queue(10); }

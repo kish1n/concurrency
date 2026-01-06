@@ -8,7 +8,7 @@
             "type": "lldb-dap",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/build/concurrency",
+            "program": "${workspaceFolder}/build/main",
             "args": [],
             "env": [],
             "cwd": "${workspaceFolder}"
