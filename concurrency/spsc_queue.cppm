@@ -6,7 +6,7 @@ export namespace concurrency {
 
 template <typename T> class spsc_queue {
 public:
-  explicit spsc_queue(std::size_t capacity) { m_buffer.reserve(capacity); }
+  explicit spsc_queue(std::size_t capacity) {}
   ~spsc_queue() = default;
 
   spsc_queue(const spsc_queue &) = delete;
